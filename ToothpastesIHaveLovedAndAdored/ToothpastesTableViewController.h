@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToothpastesTableViewController.h
 //  ToothpastesIHaveLovedAndAdored
 //
 //  Created by S on 10/16/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ToothpastesTableViewController : UITableViewController
+-(NSString *)adoredToothpaste;
 
 @end
-
